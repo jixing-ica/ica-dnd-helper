@@ -23,8 +23,7 @@ import SupportIcon from './icons/IconSupport.vue'
     <template #icon>
       <ToolingIcon />
     </template>
-    <template #heading>人物属性roll点工具</template>
-    别急还在做
+    <template #heading><RouterLink to="/ability_randomizer">人物属性roll点工具</RouterLink></template>
   </WelcomeItem>
 
   <WelcomeItem>
@@ -32,8 +31,7 @@ import SupportIcon from './icons/IconSupport.vue'
       <CommunityIcon />
     </template>
     <template #heading>问题与讨论</template>
-
-    你先别急
+    <a href="https://github.com/jixing-ica/ica-dnd-helper/issues">github issues</a>
   </WelcomeItem>
 
   <WelcomeItem>
